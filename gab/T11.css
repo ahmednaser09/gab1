@@ -1,0 +1,52 @@
+.main13{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 800px;
+ 
+   
+    }
+    
+    .main13{
+    display: grid;
+    
+    
+    }
+    .sub1{
+    background-color: gray;
+   
+    height: 200px;
+    margin: 5px;
+  display: grid;
+   grid-template-columns: repeat(2,1fr);
+  
+    }
+    .sub14{
+    
+    background-color: rgb(237, 239, 240);
+    width: 95px;
+    margin: 2px;
+    }
+    
+    .sub20{
+        background-color: rgb(237, 239, 240);   
+    margin: 2px;
+    }
+
+    .sub112{
+        background-color: gray;
+       
+        height: 200px;
+      gap: 2px;
+      display: grid;
+       grid-template-rows: 1fr 1fr;
+      
+      
+        }
+    
+    .sub21{
+        background-color: rgb(237, 239, 240);
+ 
+    margin: 2px;
+    width: 95px;
+    
+    }

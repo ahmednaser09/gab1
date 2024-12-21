@@ -1,0 +1,45 @@
+.main10{
+    display: grid;
+    background-color: gainsboro;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    }
+    
+    .main10 .hed{
+        width: 700px;
+        height:500px;
+    display: grid;
+    border: solid black; 
+    background-color: white;
+    }
+    .main10 .hed header{
+        padding:  20px;
+    display: grid;
+    grid-template-columns: 50px 300px;
+    } 
+    
+    .main10 .hed .red{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    
+    }
+    
+    .end{
+      margin-left: 15px;
+        background-color: rgb(142, 0, 0);
+        height: 250px;
+        width: 670px;
+    }
+    
+    .between{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    }
+    
+    .small{
+    width: 350px;
+    }

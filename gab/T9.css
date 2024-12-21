@@ -1,0 +1,30 @@
+.container div{
+   
+    width: 300px;
+    height: 300px;
+    
+    }
+    
+    .container.Top{
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+    }
+    
+    .container .bottom{
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: -2;
+    }
+    
+    .container .middle{
+      background-color: green;
+        position: absolute;
+    top: 300px;
+    left: 300px;
+    z-index: -3;
+    }
+    
+    
